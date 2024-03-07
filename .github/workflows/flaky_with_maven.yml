@@ -36,10 +36,10 @@ jobs:
       run: cd ~
         
     - name: Git Clone
-      run: https://github.com/spotify/apollo
+      run: git clone https://github.com/wildfly/wildfly
       
     - name: Change Directory
-      run: cd jackrabbit-oak
+      run: cd wildfly
 
     - name: Fetch Git
       run: git fetch --all
