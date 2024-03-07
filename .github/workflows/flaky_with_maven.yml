@@ -22,7 +22,7 @@ jobs:
     steps:
 
     - name: Setup Maven Action
-      uses: s4u/setup-maven-action@< 3.9.6 >
+      uses: s4u/setup-maven-action@3.9.6
         
     - uses: actions/checkout@v3
     - name: Set up JDK 11
